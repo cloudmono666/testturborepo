@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "t1pkgs": "3.0.0",
+    "t2pkgs": "3.0.0"
+  },
+  "changesets": [
+    "dry-cloths-rhyme"
+  ]
+}
