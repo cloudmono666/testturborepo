@@ -3,10 +3,12 @@
   "tag": "beta",
   "initialVersions": {
     "t1pkgs": "3.0.0",
-    "t2pkgs": "3.0.0"
+    "t2pkgs": "3.0.0",
+    "tpkgscommon": "0.0.1"
   },
   "changesets": [
     "big-trams-crash",
+    "crazy-squids-draw",
     "dry-cloths-rhyme"
   ]
 }
