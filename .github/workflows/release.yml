@@ -28,6 +28,21 @@ jobs:
           fetch-depth: 0
           show-progress: false
 
+      - name: Install PNPM
+        uses: pnpm/action-setup@v4
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: 22
+
+      - name: Install PNPM Dependencies
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+        run: pnpm install
+        shell: bash
+
       - name: Build release
         run: pnpm turbo build $TURBO_ARGS --force
 
