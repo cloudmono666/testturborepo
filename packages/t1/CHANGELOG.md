@@ -1,5 +1,18 @@
 # t1pkg
 
+## 3.1.0
+
+### Minor Changes
+
+- 4f33115: prerelease 2 beta
+- c622114: new added test
+- 1754846: this is t1 t2 prerelease beta desc
+
+### Patch Changes
+
+- Updated dependencies [c622114]
+  - tpkgscommon@0.1.0
+
 ## 3.1.0-beta.2
 
 ### Minor Changes
