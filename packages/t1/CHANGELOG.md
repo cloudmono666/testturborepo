@@ -1,5 +1,12 @@
 # t1pkg
 
+## 3.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  - tpkgscommon@1.0.0
+
 ## 3.1.0
 
 ### Minor Changes
