@@ -1,5 +1,11 @@
 # tpkgscommon
 
+## 0.1.0
+
+### Minor Changes
+
+- c622114: new added test
+
 ## 0.1.0-beta.0
 
 ### Minor Changes
