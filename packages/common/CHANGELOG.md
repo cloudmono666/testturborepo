@@ -1,5 +1,12 @@
 # tpkgscommon
 
+## 2.0.0
+
+### Major Changes
+
+- fa6bab5: this is a sample changelog. I'm testing the featureset. _hi_.
+- f909628: test version
+
 ## 1.0.0
 
 ### Major Changes

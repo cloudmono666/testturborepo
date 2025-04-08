@@ -1,5 +1,0 @@
----
-"tpkgscommon": major
----
-
-test version
