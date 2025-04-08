@@ -1,5 +1,16 @@
 # t2pkg
 
+## 3.1.0-beta.2
+
+### Minor Changes
+
+- 77731e9: new added test
+
+### Patch Changes
+
+- Updated dependencies [77731e9]
+  - tpkgscommon@0.1.0-beta.0
+
 ## 3.1.0-beta.1
 
 ### Minor Changes
