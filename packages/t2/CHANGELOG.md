@@ -1,5 +1,11 @@
 # t2pkg
 
+## 3.1.0-beta.1
+
+### Minor Changes
+
+- prerelease 2 beta
+
 ## 3.1.0-beta.0
 
 ### Minor Changes
