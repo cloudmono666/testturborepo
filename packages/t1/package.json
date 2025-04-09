@@ -6,6 +6,10 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "url": "https://github.com/cloudmono666/testturborepo",
+    "directory": "packages/t1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

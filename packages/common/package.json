@@ -3,6 +3,10 @@
   "version": "2.2.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/cloudmono666/testturborepo",
+    "directory": "packages/common"
+  },
   "files": [
     "index.js"
   ],
