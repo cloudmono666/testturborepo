@@ -1,5 +1,11 @@
 # tpkgscommon
 
+## 2.2.0
+
+### Minor Changes
+
+- 67eef5f: minor
+
 ## 2.1.1
 
 ### Patch Changes
