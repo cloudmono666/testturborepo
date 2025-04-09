@@ -10,6 +10,9 @@
     "release": "changeset publish && git push --follow-tags",
     "version-packages": "changeset version && pnpm install --lockfile-only --engine-strict=false"
   },
+  "repository": {
+    "url": "https://github.com/cloudmono666/testturborepo"
+  },
   "devDependencies": {
     "prettier": "^3.5.3",
     "turbo": "^2.5.0",
