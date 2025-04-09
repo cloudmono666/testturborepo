@@ -1,5 +1,0 @@
----
-"tpkgscommon": minor
----
-
-minor
