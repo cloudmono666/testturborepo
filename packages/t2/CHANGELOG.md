@@ -1,5 +1,12 @@
 # t2pkg
 
+## 3.3.3
+
+### Patch Changes
+
+- Updated dependencies [3173fcb]
+  - tpkgscommon@2.3.0
+
 ## 3.3.2
 
 ### Patch Changes
