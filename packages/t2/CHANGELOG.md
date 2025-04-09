@@ -1,5 +1,11 @@
 # t2pkg
 
+## 3.3.0
+
+### Minor Changes
+
+- 6190d1d: test pk2
+
 ## 3.2.0
 
 ### Minor Changes
