@@ -1,5 +1,11 @@
 # t1pkg
 
+## 3.3.0
+
+### Minor Changes
+
+- a4bc01e: test 1 _hi_
+
 ## 3.2.0
 
 ### Minor Changes
