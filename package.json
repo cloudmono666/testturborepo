@@ -7,7 +7,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
-    "release": "pnpm publish --access=restricted && git push --follow-tags",
+    "release": "changeset publish -- --access=restricted && git push --follow-tags",
     "version-packages": "changeset version && pnpm install --lockfile-only --engine-strict=false"
   },
   "repository": {
