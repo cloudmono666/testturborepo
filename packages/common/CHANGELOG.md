@@ -1,5 +1,11 @@
 # tpkgscommon
 
+## 2.5.0
+
+### Minor Changes
+
+- 48ac546: yy
+
 ## 2.4.0
 
 ### Minor Changes
