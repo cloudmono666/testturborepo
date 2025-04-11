@@ -1,5 +1,11 @@
 # tpkgscommon
 
+## 2.4.0
+
+### Minor Changes
+
+- 94ce7cc: minro
+
 ## 2.3.0
 
 ### Minor Changes
