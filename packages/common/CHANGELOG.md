@@ -1,5 +1,11 @@
 # tpkgscommon
 
+## 2.6.0
+
+### Minor Changes
+
+- 77ae8a8: sdf sdf
+
 ## 2.5.0
 
 ### Minor Changes
