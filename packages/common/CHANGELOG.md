@@ -1,5 +1,13 @@
 # tpkgscommon
 
+## 2.7.0
+
+### Minor Changes
+
+- not founddddddd second commit ([#21](https://github.com/cloudmono666/testturborepo/pull/21)) by [@sathyajithps](https://github.com/sathyajithps)
+
+- not founddddddd this is a test commit ([#21](https://github.com/cloudmono666/testturborepo/pull/21)) by [@sathyajithps](https://github.com/sathyajithps)
+
 ## 2.6.0
 
 ### Minor Changes
