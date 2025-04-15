@@ -1,6 +1,9 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.1.1/schema.json",
-  "changelog": "./changelog.js",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "cloudmono666/testturborepo" }
+  ],
   "commit": false,
   "fixed": [],
   "linked": [],
