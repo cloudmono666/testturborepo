@@ -66,6 +66,8 @@ const getReleaseLine = async (changeset, type, options) => {
       pull_number: prFromSummary,
     });
 
+    console.log(JSON.stringify(comments));
+
     for (const comment of comments.sort((a, b) => {
       const dateA = new Date(a.created_at);
       const dateB = new Date(b.created_at);
@@ -81,8 +83,6 @@ const getReleaseLine = async (changeset, type, options) => {
         // }
 
         description = comment.body.replace("!description", "").trim();
-
-        console.log(description ?? "nope");
       }
     }
   }
