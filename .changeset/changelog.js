@@ -1,6 +1,6 @@
-// @ts-ignore
 import { config } from "dotenv";
 import { getInfo, getInfoFromPullRequest } from "@changesets/get-github-info";
+import { Octokit } from "@octokit/rest";
 
 config();
 
@@ -11,9 +11,7 @@ const changelogFunctions = {
     options
   ) => {
     if (!options.repo) {
-      throw new Error(
-        'Please provide a repo to this changelog generator like this:\n"changelog": ["@changesets/changelog-github", { "repo": "org/repo" }]'
-      );
+      throw new Error("Repo not found");
     }
     if (dependenciesUpdated.length === 0) return "";
 
@@ -41,9 +39,7 @@ const changelogFunctions = {
   },
   getReleaseLine: async (changeset, type, options) => {
     if (!options || !options.repo) {
-      throw new Error(
-        'Please provide a repo to this changelog generator like this:\n"changelog": ["@changesets/changelog-github", { "repo": "org/repo" }]'
-      );
+      throw new Error("Repo not found");
     }
 
     let prFromSummary;
@@ -69,6 +65,30 @@ const changelogFunctions = {
     const [firstLine, ...futureLines] = replacedChangelog
       .split("\n")
       .map((l) => l.trimRight());
+
+    if (typeof prFromSummary === "number") {
+      const octokit = new Octokit({
+        auth: process.env.GITHUB_TOKEN,
+      });
+
+      const { data: comments1 } = await octokit.pulls.listCommentsForReview.get(
+        {
+          owner: options.repo.split("/")[0],
+          repo: options.repo.split("/")[1],
+          pull_number: prFromSummary,
+        }
+      );
+
+      console.log(JSON.stringify(comments1, null, 2));
+
+      const { data: comments2 } = await octokit.pulls.listReviewComments.get({
+        owner: options.repo.split("/")[0],
+        repo: options.repo.split("/")[1],
+        pull_number: prFromSummary,
+      });
+
+      console.log(JSON.stringify(comments2, null, 2));
+    }
 
     const links = await (async () => {
       if (prFromSummary !== undefined) {
