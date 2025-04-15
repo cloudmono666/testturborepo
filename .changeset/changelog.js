@@ -33,6 +33,8 @@ const getDependencyReleaseLine = async (changesets, dependenciesUpdated) => {
 };
 
 const getReleaseLine = async (changeset, type, options) => {
+  let description = undefined;
+
   let prFromSummary;
   let commitFromSummary;
   let usersFromSummary = [];
@@ -63,8 +65,6 @@ const getReleaseLine = async (changeset, type, options) => {
       repo: repo.split("/")[1],
       pull_number: prFromSummary,
     });
-
-    let description = undefined;
 
     for (const comment of comments.sort((a, b) => {
       const dateA = new Date(a.created_at);
