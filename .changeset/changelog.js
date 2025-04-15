@@ -55,6 +55,11 @@ const getReleaseLine = async (changeset, type, options) => {
     })
     .trim();
 
+  console.log("prFromSummary", prFromSummary);
+  console.log(JSON.stringify(changeset));
+  console.log(JSON.stringify(type));
+  console.log(JSON.stringify(options));
+
   if (typeof prFromSummary === "number") {
     const octokit = new Octokit({
       auth: process.env.GITHUB_TOKEN,
