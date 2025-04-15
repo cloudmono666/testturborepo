@@ -1,12 +1,5 @@
 # t2pkg
 
-## 3.3.7
-
-### Patch Changes
-
-- Updated dependencies [[`1d47a07`](https://github.com/cloudmono666/testturborepo/commit/1d47a0737a812842bd9e187a359842563eb8057b), [`1d47a07`](https://github.com/cloudmono666/testturborepo/commit/1d47a0737a812842bd9e187a359842563eb8057b)]:
-  - tpkgscommon@2.7.0
-
 ## 3.3.6
 
 ### Patch Changes

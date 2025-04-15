@@ -1,13 +1,5 @@
 # tpkgscommon
 
-## 2.7.0
-
-### Minor Changes
-
-- [#21](https://github.com/cloudmono666/testturborepo/pull/21) [`1d47a07`](https://github.com/cloudmono666/testturborepo/commit/1d47a0737a812842bd9e187a359842563eb8057b) Thanks [@sathyajithps](https://github.com/sathyajithps)! - second commit
-
-- [#21](https://github.com/cloudmono666/testturborepo/pull/21) [`1d47a07`](https://github.com/cloudmono666/testturborepo/commit/1d47a0737a812842bd9e187a359842563eb8057b) Thanks [@sathyajithps](https://github.com/sathyajithps)! - this is a test commit
-
 ## 2.6.0
 
 ### Minor Changes
