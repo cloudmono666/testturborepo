@@ -82,7 +82,7 @@ const getReleaseLine = async (changeset, type, options) => {
 
         description = comment.body.replace("!description", "").trim();
 
-        console.log(description);
+        console.log(description ?? "nope");
       }
     }
   }
@@ -134,7 +134,7 @@ const getReleaseLine = async (changeset, type, options) => {
     users === null ? "" : ` by ${users}`,
   ].join("");
 
-  return `\n\n- ${description} ${firstLine}${prefix ? `${prefix} \n` : ""}\n${futureLines.map((l) => `  ${l}`).join("\n")}`;
+  return `\n\n- ${description ?? "not founddddddd"} ${firstLine}${prefix ? `${prefix} \n` : ""}\n${futureLines.map((l) => `  ${l}`).join("\n")}`;
 };
 
 const changelogFunctions = { getReleaseLine, getDependencyReleaseLine };
