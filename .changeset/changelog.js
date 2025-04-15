@@ -4,7 +4,7 @@ const {
 } = require("@changesets/get-github-info");
 const { Octokit } = require("@octokit/rest");
 
-const repo = "cloud/monocloud-js-sdk";
+const repo = "cloudmono666/testturborepo";
 
 const getDependencyReleaseLine = async (changesets, dependenciesUpdated) => {
   if (dependenciesUpdated.length === 0) return "";
@@ -72,15 +72,17 @@ const getReleaseLine = async (changeset, type, options) => {
       return dateA.getTime() - dateB.getTime();
     })) {
       if (comment.body.startsWith("!description")) {
-        const res = await octokit.orgs.checkMembershipForUser({
-          org: "MonoCld",
-          username: comment.user.login,
-        });
-        if (res.status > 300) {
-          continue;
-        }
+        // const res = await octokit.orgs.checkMembershipForUser({
+        //   org: "MonoCld",
+        //   username: comment.user.login,
+        // });
+        // if (res.status > 300) {
+        //   continue;
+        // }
 
         description = comment.body.replace("!description", "").trim();
+
+        console.log(description);
       }
     }
   }
