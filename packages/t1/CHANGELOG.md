@@ -1,5 +1,12 @@
 # t1pkg
 
+## 3.3.7
+
+### Patch Changes
+
+- Updated dependencies [[`d63f0e0`](https://github.com/cloudmono666/testturborepo/commit/d63f0e0fe7174c011c9c4e28f3a96f0d679a33ee), [`d63f0e0`](https://github.com/cloudmono666/testturborepo/commit/d63f0e0fe7174c011c9c4e28f3a96f0d679a33ee)]:
+  - tpkgscommon@2.7.0
+
 ## 3.3.6
 
 ### Patch Changes
